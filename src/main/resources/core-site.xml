@@ -1,0 +1,13 @@
+<configuration>
+    <!-- 指定 HDFS 中 NameNode 的地址 -->
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://hadoop1:9000</value>
+    </property>
+
+    <!-- 指定 Hadoop 运行时产生文件的存储目录 -->
+<!--    <property>-->
+<!--        <name>hadoop.tmp.dir</name>-->
+<!--        <value>/opt/cwc/servers/hadoop-2.9.2/data/tmp</value>-->
+<!--    </property>-->
+</configuration>
